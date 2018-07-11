@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D25401A20F5D20700E1B0D0 /* testTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D25401920F5D20700E1B0D0 /* testTableView.swift */; };
+		5D25401C20F5D22900E1B0D0 /* testTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D25401B20F5D22900E1B0D0 /* testTableViewModel.swift */; };
+		5D25401E20F5D65100E1B0D0 /* testBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D25401D20F5D65100E1B0D0 /* testBarButtonItem.swift */; };
+		5D25402020F5D6AC00E1B0D0 /* testBarItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D25401F20F5D6AC00E1B0D0 /* testBarItemViewModel.swift */; };
+		5D25402220F5DC7700E1B0D0 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D25402120F5DC7700E1B0D0 /* secondViewController.swift */; };
 		5DC41CBD20F5CE9D004AA545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC41CBC20F5CE9D004AA545 /* AppDelegate.swift */; };
 		5DC41CBF20F5CE9D004AA545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC41CBE20F5CE9D004AA545 /* ViewController.swift */; };
 		5DC41CC220F5CE9D004AA545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC41CC020F5CE9D004AA545 /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		5DC41CC720F5CE9E004AA545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC41CC520F5CE9E004AA545 /* LaunchScreen.storyboard */; };
 		5DC41CD220F5CE9F004AA545 /* MVVMTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC41CD120F5CE9F004AA545 /* MVVMTestTests.swift */; };
 		5DC41CDD20F5CE9F004AA545 /* MVVMTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC41CDC20F5CE9F004AA545 /* MVVMTestUITests.swift */; };
+		5DC41CEB20F5CEFA004AA545 /* fengjing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DC41CEA20F5CEFA004AA545 /* fengjing.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D25401920F5D20700E1B0D0 /* testTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTableView.swift; sourceTree = "<group>"; };
+		5D25401B20F5D22900E1B0D0 /* testTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTableViewModel.swift; sourceTree = "<group>"; };
+		5D25401D20F5D65100E1B0D0 /* testBarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testBarButtonItem.swift; sourceTree = "<group>"; };
+		5D25401F20F5D6AC00E1B0D0 /* testBarItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testBarItemViewModel.swift; sourceTree = "<group>"; };
+		5D25402120F5DC7700E1B0D0 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		5DC41CB920F5CE9D004AA545 /* MVVMTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC41CBC20F5CE9D004AA545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DC41CBE20F5CE9D004AA545 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		5DC41CD820F5CE9F004AA545 /* MVVMTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC41CDC20F5CE9F004AA545 /* MVVMTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMTestUITests.swift; sourceTree = "<group>"; };
 		5DC41CDE20F5CE9F004AA545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC41CEA20F5CEFA004AA545 /* fengjing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fengjing.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D25401620F5D19C00E1B0D0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5D25401B20F5D22900E1B0D0 /* testTableViewModel.swift */,
+				5D25401F20F5D6AC00E1B0D0 /* testBarItemViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D25401720F5D1A800E1B0D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D25401920F5D20700E1B0D0 /* testTableView.swift */,
+				5D25401D20F5D65100E1B0D0 /* testBarButtonItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D25401820F5D1AF00E1B0D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5DC41CBE20F5CE9D004AA545 /* ViewController.swift */,
+				5D25402120F5DC7700E1B0D0 /* secondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		5DC41CB020F5CE9D004AA545 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +136,12 @@
 		5DC41CBB20F5CE9D004AA545 /* MVVMTest */ = {
 			isa = PBXGroup;
 			children = (
+				5D25401820F5D1AF00E1B0D0 /* Controller */,
+				5D25401720F5D1A800E1B0D0 /* View */,
+				5D25401620F5D19C00E1B0D0 /* ViewModel */,
 				5DC41CBC20F5CE9D004AA545 /* AppDelegate.swift */,
-				5DC41CBE20F5CE9D004AA545 /* ViewController.swift */,
 				5DC41CC020F5CE9D004AA545 /* Main.storyboard */,
+				5DC41CEA20F5CEFA004AA545 /* fengjing.jpg */,
 				5DC41CC320F5CE9E004AA545 /* Assets.xcassets */,
 				5DC41CC520F5CE9E004AA545 /* LaunchScreen.storyboard */,
 				5DC41CC820F5CE9E004AA545 /* Info.plist */,
@@ -231,6 +273,7 @@
 			files = (
 				5DC41CC720F5CE9E004AA545 /* LaunchScreen.storyboard in Resources */,
 				5DC41CC420F5CE9E004AA545 /* Assets.xcassets in Resources */,
+				5DC41CEB20F5CEFA004AA545 /* fengjing.jpg in Resources */,
 				5DC41CC220F5CE9D004AA545 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +299,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D25401A20F5D20700E1B0D0 /* testTableView.swift in Sources */,
+				5D25402220F5DC7700E1B0D0 /* secondViewController.swift in Sources */,
 				5DC41CBF20F5CE9D004AA545 /* ViewController.swift in Sources */,
 				5DC41CBD20F5CE9D004AA545 /* AppDelegate.swift in Sources */,
+				5D25402020F5D6AC00E1B0D0 /* testBarItemViewModel.swift in Sources */,
+				5D25401C20F5D22900E1B0D0 /* testTableViewModel.swift in Sources */,
+				5D25401E20F5D65100E1B0D0 /* testBarButtonItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
